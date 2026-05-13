@@ -1,0 +1,65 @@
+@use 'variables' as *;
+
+.auth-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+
+  .auth-inner {
+    width: 100%;
+    max-width: 420px;
+
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-body {
+      padding: 2.5rem;
+    }
+
+    .brand-logo {
+      text-decoration: none;
+
+      .brand-text {
+        font-size: 1.8rem;
+        font-weight: 700;
+        display: inline;
+      }
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .form-label {
+      font-weight: 500;
+      font-size: 0.85rem;
+      color: #5e5873;
+    }
+
+    .form-control {
+      border-radius: 6px;
+      padding: 10px 14px;
+      border: 1px solid #d8d6de;
+      transition: border-color 0.2s;
+      height: auto;
+
+      &:focus {
+        border-color: $primary;
+        box-shadow: 0 0 0 2px rgba($primary, 0.15);
+      }
+    }
+
+    .btn-primary {
+      padding: 10px;
+      font-weight: 600;
+      border-radius: 6px;
+    }
+  }
+}

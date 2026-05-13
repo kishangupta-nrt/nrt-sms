@@ -1,0 +1,27 @@
+$primary: #5a50e2;
+$secondary: #6a6f80;
+$success: #28c76f;
+$danger: #ea5455;
+$warning: #ff9f43;
+$info: #00cfe8;
+$dark: #1e1e2d;
+$light: #f6f6f9;
+
+$body-bg: #f8f8f8;
+$body-color: #6e6b7b;
+
+$sidebar-width: 260px;
+$sidebar-collapsed-width: 80px;
+$header-height: 65px;
+$footer-height: 50px;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "info": $info,
+  "dark": $dark,
+  "light": $light,
+);
